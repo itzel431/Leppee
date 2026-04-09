@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Text, TouchableOpacity, Platform } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-
+import { marcarSenaVista, addHistorial, updateStats } from '../utils/storage';
 // ═══════════════════════════════════════════════════════════════
 //  MOTOR DE DETECCIÓN LSM — 100+ señas
 //  Una mano + Dos manos
